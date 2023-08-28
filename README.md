@@ -1,0 +1,1 @@
+# Multiscale Residual Learning of Graph Convolutional Sequence Chunks for Human Motion Prediction
