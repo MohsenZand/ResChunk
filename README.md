@@ -11,18 +11,18 @@ CMU Mocap can be downloaded from [here](https://github.com/chaneyddtt/Convolutio
 
 H3.6M can be downloaded from [here](https://github.com/una-dinosauria/human-motion-prediction).
 
-Once downloaded, datasets must be processed using 'preprocess_datasets.py'
+Once downloaded, datasets must be processed using `preprocess_datasets.py`
 
 
 ## Training 
-All models are implemented in 'models.py'.
-To train our method on each dataset, 'db' flag in 'flag_sets.py' must be set as the name of dataset (cmu or h36m). 
-After setting the 'PATH' for 'data_dir' and 'run_dir', the model can be trained by simply running 'train.py'.
-Other flags in 'flag_sets.py' can be changed if needed. 
+All models are implemented in `models.py`.
+To train our method on each dataset, `db` flag in `flag_sets.py` must be set as the name of dataset (cmu or h36m). 
+After setting the `PATH` for `data_dir` and `run_dir`, the model can be trained by simply running `train.py`.
+Other flags in `flag_sets.py` can be changed if needed. 
 
 
 ## Evaluation and Visualization
-To evaluate and visualize the results, the corresponding flags in 'EVALUATION' section of 'flag_sets.py' must be set. Then, running 'evaluation.py' can generate the results and save the figures and videos in the 'run_dir'. 
+To evaluate and visualize the results, the corresponding flags in `EVALUATION` section of `flag_sets.py` must be set. Then, running `evaluation.py` can generate the results and save the figures and videos in the `run_dir`. 
 
 ## Citation
 Please cite our papers if you use code from this repository:
