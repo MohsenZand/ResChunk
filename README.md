@@ -11,10 +11,7 @@ CMU Mocap can be downloaded from [here](https://github.com/chaneyddtt/Convolutio
 
 H3.6M can be downloaded from [here](https://github.com/una-dinosauria/human-motion-prediction).
 
-Once downloaded, datasets must be processed using
-'''
-preprocess_datasets.py
-'''
+Once downloaded, datasets must be processed using 'preprocess_datasets.py'
 
 
 ## Training 
