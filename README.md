@@ -24,3 +24,27 @@ Other flags in 'flag_sets.py' can be changed if needed.
 ## Evaluation and Visualization
 To evaluate and visualize the results, the corresponding flags in 'EVALUATION' section of 'flag_sets.py' must be set. Then, running 'evaluation.py' can generate the results and save the figures and videos in the 'run_dir'. 
 
+## Citation
+Please cite our papers if you use code from this repository:
+```
+@article{zand2023multiscale,
+  title={Multiscale Residual Learning of Graph Convolutional Sequence Chunks for Human Motion Prediction},
+  author={Zand, Mohsen and Etemad, Ali and Greenspan, Michael},
+  journal={arXiv preprint arXiv:2308.16801},
+  year={2023}
+}
+```
+
+```
+@article{zand2023flow,
+  title={Flow-Based Spatio-Temporal Structured Prediction of Motion Dynamics},
+  author={Zand, Mohsen and Etemad, Ali and Greenspan, Michael},
+  booktitle={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume={45},
+  number={11},
+  pages={1--13},
+  year={2023},
+  publisher={IEEE}
+}
+```
+
